@@ -1,8 +1,8 @@
 export default function getNeighborhoodsList() {
-  this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
+  const sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
   const addNeighborhood = (newNeighborhoods) => {
-      this.sanFranciscoNeighborhoods.push(newNeighborhoods);
-      return this.sanFranciscoNeighborhoods;
+      sanFranciscoNeighborhoods.push(newNeighborhoods);
+      return sanFranciscoNeighborhoods;
   };
   return {
       addNeighborhood: addNeighborhood
