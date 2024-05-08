@@ -5,6 +5,6 @@ export default function getNeighborhoodsList() {
     return this.sanFranciscoNeighborhoods;
   };
   return {
-    addNeighborhood: this.addNeighborhood
+    addNeighborhood: this.addNeighborhood,
   };
 }
