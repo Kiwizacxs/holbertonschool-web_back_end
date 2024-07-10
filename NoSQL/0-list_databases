@@ -1,3 +1,5 @@
 // list database
 
-mongo --eval "printjson(db.adminCommand('listDatabases'))"
+mongo <<EOF
+show dbs
+EOF
