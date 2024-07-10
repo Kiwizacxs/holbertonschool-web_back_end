@@ -2,6 +2,7 @@
 """module that contain print_results function"""
 from pymongo import MongoClient
 
+  
 def print_results(log_count, methods, status_check):
   """provides some stats about Nginx logs stored in MongoDB"""
     print(f"{log_count} logs")
