@@ -1,7 +1,5 @@
 // list database
 
-list_databases() {
-    mongo <<EOF
+mongo <<EOF
 show dbs
 EOF
-}
