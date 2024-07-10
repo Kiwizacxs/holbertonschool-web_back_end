@@ -4,10 +4,10 @@ from pymongo import MongoClient
 
 
 def print_results(log_count, methods, status_check):
-  """provides some stats about Nginx logs stored in MongoDB"""
+    """provides some stats about Nginx logs stored in MongoDB"""
     print(f"{log_count} logs")
     for method, count in methods.items():
-      print(f"{method}: {count} requests")
+        print(f"{method}: {count} requests")
     print(f"/status endpoint: {status_check} requests")
 
 if __name__ == "__main__":
