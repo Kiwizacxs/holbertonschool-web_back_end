@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""docmented"""
 import pymongo
 
 client = pymongo.MongoClient()
