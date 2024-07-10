@@ -1,7 +1,3 @@
 // abcd
 
-list_databases() {
-    mongo --quiet --eval "db.getMongo().getDBNames().forEach(function(d) { print(d) })"
-}
-
-list_databases
+show dbs
