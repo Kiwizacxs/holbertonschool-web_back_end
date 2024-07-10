@@ -1,3 +1,3 @@
 // list database
 
-mongo --quiet --eval "show dbs" | tail -n +3
+mongo --quiet --eval "show dbs" | tail
