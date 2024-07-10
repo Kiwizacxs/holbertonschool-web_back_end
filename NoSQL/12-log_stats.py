@@ -3,7 +3,7 @@
 from pymongo import MongoClient
 
 def print_results(log_count, methods, status_check):
-  """function of the module"""
+    """function of the module"""
     print(f"{log_count} logs")
     print("Methods:")
     for method, count in methods.items():
