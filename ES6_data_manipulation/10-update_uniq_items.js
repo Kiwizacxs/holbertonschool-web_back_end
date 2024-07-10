@@ -3,7 +3,7 @@ export default function updateUniqueItems(groceryMap) {
     throw new Error('Cannot process');
   }
 
-  for (let [item, cantidad] of groceryMap) {
+  for (const [item, cantidad] of groceryMap) {
     if (cantidad === 1) {
       groceryMap.set(item, 100);
     }
