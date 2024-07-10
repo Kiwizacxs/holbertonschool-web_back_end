@@ -1,4 +1,4 @@
-#!/bin/bash
+// all
 
 DB_NAME=$1
 

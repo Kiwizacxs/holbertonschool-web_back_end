@@ -1,4 +1,4 @@
-#!/bin/bash
+// insert
 
 DB_NAME=$1
 

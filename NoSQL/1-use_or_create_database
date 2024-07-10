@@ -1,4 +1,4 @@
-#!/bin/bash
+// use or create database
 
 use my_db
 EOF
