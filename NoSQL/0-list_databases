@@ -1,3 +1,5 @@
 // list database
 
-mongo --quiet --eval "show dbs"
+mongo --quiet <<EOF
+show dbs
+EOF
