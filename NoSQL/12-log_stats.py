@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""module for provides some stats about Nginx logs stored in MongoDB"""
+"""module"""
 from pymongo import MongoClient
 
 def print_results(log_count, methods, status_check):
-    """print the result"""
+  """function of the module"""
     print(f"{log_count} logs")
     print("Methods:")
     for method, count in methods.items():
