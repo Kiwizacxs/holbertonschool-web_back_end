@@ -1,5 +1,3 @@
 // list database
 
-mongo --quiet <<EOF
-show dbs | grep -V "msg -"
-EOF
+mongo --quiet --eval "show dbs" | tail -n +3
