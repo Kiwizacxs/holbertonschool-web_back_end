@@ -1,3 +1,7 @@
-// list databases
+// abcd
 
-mongo --quiet --eval "db.adminCommand('listDatabases').databases.forEach(function(d) { if (d.name.startsWith('my_db_')) { print(d.name) } })"
+list_databases() {
+    mongo --quiet --eval "db.getMongo().getDBNames().forEach(function(d) { print(d) })"
+}
+
+list_databases
