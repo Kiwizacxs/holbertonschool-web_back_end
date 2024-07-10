@@ -1,5 +1,5 @@
 // list database
 
-mongo <<EOF
+mongo --quiet <<EOF
 show dbs
 EOF
