@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DB_NAME=$1
+
+mongo $DB_NAME <<EOF
+db.school.find({ "name": "Holberton school" }).forEach(printjson)
+EOF
